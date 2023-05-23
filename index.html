@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Página principal</title>
+    </head>
+    <body>
+        <h1>Como funciona o HTML?</h1>
+        <hr />
+        <h2>O HTML, apresenta inúmeros recursos para você começar a práticar a criação de sites!</h2>
+        <u><h3>São esses:</h3></u>
+        <ol>
+            <li><a href="#tags">Tags</a></li>
+            <li><a href="#Atributos">Atributos das Tags</a></li>
+            <li><a href="#Existem">Textos</a></li></i>
+            <li><a href="#Existem-dois">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#No-HTML">Links</a></li>
+        </ol>
+
+        <strong><i><u><h2 id="tags">TAGS</h2></strong></i></u>
+        <p>As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing). O fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento, não há necessidade da presença desse caractere.</p>
+        <i><h3>Tipos de TAGS:</h3></i>
+        <ul>
+            <strong><li>HTML:</HTML>:</li></strong> <p>Representa a raiz do documento, serve com um container que engloba todos os outros elementos HTML.</p>
+            <strong><li>BODY:</li></strong> <p>É onde fica todo o conteúdo de texto, imagem e vídeos, em que o usuário vê e interage, nele os conteúdos são estruturados pelas demais tags do HTML.</p>
+            <strong><li>SCRIPT:</li></strong> <p>Esse elemento contém instruções de script ou aponta para um arquivo de script externo por meio do atributo src.</p>
+            <strong><li>HEAD:</li></strong> <p>Compreende as informações do documento que serão interpretadas pelo navegador (metadados). Como por exemplo, título do documento, links para folhas de estilo etc.</p>
+            <strong><li>META:</li></strong> <p>Define metadados, ou seja, informações sobre dados de um documento HTML. As <meta> tags vão dentro do elemento <head> e são usadas para especificar o conjunto de caracteres, o autor do documento, as configurações da janela de visualização etc.</p>
+            <strong><li>LINK:</li></strong> <p>É uma tag vazia, que contém apenas atributos e faz a relação do documento HTML com recursos externos, é comumente usado para vincular uma folha de estilo externa, também é usada para definir o favicon da página (ícone da aba do navegador), como outros recursos.</p>
+            <strong><li>STYLE:</li></strong> <p>Essa tag é usada para declarar estilos (CSS) para um documento.</p>
+        </ul>
+
+        <strong><i><u><h2 id="Atributos">ATRIBUTOS DAS TAGS</h2></strong></i></u>
+        <p>Atributos HTML são palavras especiais usadas dentro da tag de abertura para controlar o comportamento do elemento. Os atributos HTML são um modificador de um tipo de elemento HTML. Com eles podemos identificar melhor um elemento, informar qual arquivo aquela tag deve utilizar, indicar o tipo de um campo de texto, etc…</p>
+        <p>Há dois tipos de atributos no HTML, os globais que são aceitos por todas as tags, como por exemplo: class, id, lang, style e algumas outras que você pode conferir na documentação também existem os específicos que somente algumas tags possuem, como src, disabled, href, label, etc…</p>
+
+        <ul>
+         <strong><li>CLASS = "NomeDaClasse":</HTML></li></strong> <p>Classes são como classificações de uma tag/elemento, para que no CSS estilizar uma tag específica, ou um conjunto de tags.</p>
+         <strong><li> ID = "NomeDoId":</HTML></li></strong> <p>Identificar de forma única um elemento naquela página HTML... É utilizado para identificar destino de âncoras, labels e outras funcionalidades neste sentido.</p>
+         <strong><li> SRC = "Link ou diretório da mídia":</HTML></li></strong> <p>Comumente utilizado para indicar para a tag qual arquivo ou mídia utilizar. Recebe valores como links (https://google.com/minhaimagem.jpeg) ou o nome de um arquivo já presente no projeto (/minhaimagem.jpeg).</p>
+         <strong><li> ALT = "Texto alternativo":</HTML></li></strong> <p>O atributo alt fornece informações alternativas para uma imagem se um usuário por algum motivo não puder visualizá-la (devido à conexão lenta, um erro no atributo src ou se o usuário usar um leitor de tela).</p>
+         <strong><li> HREF = "Url":</HTML></li></strong> <p>Para a tag a, o atributo href especifica a URL da página para a qual o link vai.</p> <p>Para elementos link, o atributo href especifica a localização (URL) do recurso externo (geralmente um arquivo de folha de estilo).</p>
+         <strong><li> LANG = "Linguagem":</HTML></li></strong> <p>O atributo lang especifica o idioma do conteúdo da tag.</p> <p>Os exemplos comuns são "en" para inglês, "es" para espanhol, "fr" para francês e assim por diante.</p>
+         <strong><li> TARGET = "Blank":</HTML></li></strong> <p>Esse atributo abre o link do documento em uma nova janela ou aba.</p>
+        </ul>
+
+        <strong><i><u><h2 id="Existem">ATRIBUTOS DE TEXTOS</h2></strong></i></u>
+        <p>Existem alguns comandos de texto que diferenciam um título maior, de um menor, e até mesmo de um parágrafo.</p>
+        <p>Alguns exemplos disso, são:</p>
+        <ul>
+            <strong><li>h1</li></strong> <p>Esse é o maior título de uma página</p>
+            <strong><li>h2</li></strong> <p>Esse é um título menor que h1</p>
+            <strong><li>h3</li></strong> <p>Esse é um título menor que h2</p>
+            <strong><li>h4</li></strong> <p>Esse é um título menor que h3</p>
+            <strong><li>h5</li></strong> <p>Esse é um título menor que h4</p>
+            <strong><li>h6</li></strong> <p>Esse é um título menor que h5</p>
+            <strong><li>p</li></strong> <p>Esse comando é usado para parágrafos</p>
+            <strong><li>i</li></strong> <p>Esse comando é usado para deixar o texto em <i>itálico</i></p>
+            <strong><li>mark</li></strong> <p>Esse comando grifa o texto como se fosse um <mark>marca-texto</mark></p>
+            <strong><li>strong</li></strong> <p>Esse comando deixa o texto em <strong>negrito</strong></p>
+            <strong><li>u</li></strong> <p>Esse comando deixa o texto <u>sublinhado</u></p>
+            <strong><li>small</li></strong> <p>Esse comando deixa o texto <small>menor</small></p>
+            <strong><li>a</li></strong> <p>Esse comando cria um hiperlink para páginas da Web, arquivos, endereços de e-mail, locais na mesma página ou qualquer outra coisa que um URL possa endereçar.</p>
+            <strong><li>hr</li></strong> <p>Esse comando cria uma linha, por exemplo, separando o título do restante do texto</p>
+            <strong><li>li</li></strong> <p>Esse comando cria os elementos de uma lista</p>
+            <strong><li>ol</li></strong> <p>Esse comando cria uma lista ordenada (1-2-3-...)</p>
+            <strong><li>ul</li></strong> <p>Esse comando cria uma lista não ordenada (. . .)</p>
+            <strong><li>blockquote</li></strong> <p>Esse comando indica que o texto incluído é uma citação estendida. Normalmente, isso é renderizado visualmente por <blockquote>recuo</blockquote></p>
+            <strong><li>sub</li></strong> <p>Esse comando deixa o texto <sub>subscrito</sub></p>
+            <strong><li>sup</li></strong> <p>Esse comando deixa o texto <sup>sobrescrito</sup></p>
+        </ul> 
+
+        <strong><i><u><h2 id="Existem-dois">LISTAS ORDENADAS E NÃO ORDENADAS</h2></strong></i></u>
+        <p>Existem dois tipos de listas:</p>
+        <h3>Ordenadas (ol):</h3>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <h3>ou Não Ordenadas (ul):</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <strong><i><u><h2 id="No-HTML">LINKS</h2></strong></i></u>
+        <p>No HTML, os links são definidos pela tag 'a'. Dentro dessa tag incluímos o atributo href (Hypertext Reference), que é o endereço de destino do link. Dentro do conteúdo da tag <a>, incluímos então o texto ou elemento que servirá como redirecionador, ou seja, que ao ser clicado, executará a função de redirecionar para o endereço dentro do atributo href.</p>
+
+        <p> A tag 'a' pode ser utilizada dentro ou fora dos demais elementos do HTML, como no exemplo abaixo onde criamos um parágrafo, e dentro dele, apenas a palavra HomeHost contém um hiperlink para a página inicial da HomeHost:</p>
+        <p>Seja redirecionado à página da </p>
+        <p><a href="https://www.homehost.com.br/">HomeHost</a></p></p>
+    </body>
+</html>
